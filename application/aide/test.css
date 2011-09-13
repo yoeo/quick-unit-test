@@ -1,0 +1,10 @@
+body
+{
+   width: 760px;
+     height: 80px;
+
+   margin: auto; /* Pour centrer notre page */
+   margin-top: 20px; /* Pour éviter de coller avec le haut de la fenêtre du navigateur. Essayez d'enlever pour voir ! */
+   margin-bottom: 20px;    /* Idem pour le bas du navigateur */
+   background-color: silver;
+}

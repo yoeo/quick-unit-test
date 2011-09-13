@@ -1,0 +1,20 @@
+ body
+{
+   width: 760px;
+  
+   margin-top: 100px;
+   margin-bottom: 0px;  
+   
+   background-color: silver;
+}
+#corps
+{
+ margin-left: 50px;
+   margin-bottom: 20px;
+  padding:5px;
+
+   
+   background-color: white;
+border:1px solid white;
+  
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<programme nom="spin" type="int" retour="c" >
+	
+	<listepara>
+		<var type="int" nom="a" valeur="0" />
+		<var type="int" nom="b" valeur="0" />
+	</listepara>
+
+	<listeglob>
+		<var type="int" nom="g" />
+	</listeglob>
+
+	<!-- TESTS -->
+	<test description="Spin des nombres positifs">
+		<entree>
+			<var nom="a" valeur="5" />
+			<var nom="b" valeur="10" />
+			<var nom="g" valeur="3" />
+		</entree>
+		<sortie>
+			<var nom="g" valeur="5" />
+			<var nom="c" valeur="10" />
+		</sortie>
+	</test>
+	<test description="Spin des nombres négatifs">
+		<entree>
+			<var nom="a" valeur="-4" />
+			<var nom="b" valeur="-1" />
+			<var nom="g" valeur="-3" />
+		</entree>
+		<sortie>
+			<var nom="g" valeur="-3" />
+			<var nom="c" valeur="-1" />
+		</sortie>
+	</test>
+</programme>
